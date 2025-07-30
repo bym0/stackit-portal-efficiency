@@ -17,6 +17,6 @@ Include the following in your tampermonkey as a userscript.
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=stackit.cloud
 // @grant        GM_getValue
 // @grant        GM_setValue
-// @require      https://raw.githubusercontent.com/YourUsername/YourRepo/main/stackit-favorites.js
+// @require      https://raw.githubusercontent.com/bym0/stackit-portal-efficiency/refs/heads/main/src/main.js
 // ==/UserScript==
 ```
