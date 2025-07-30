@@ -4,8 +4,12 @@ this is a little tampermonkey script, to add some functionalities on top of the 
 Please don't judge the code, it's partly Gemini and partly i have no clue.
 
 ## usage
+click the __[link](https://raw.githubusercontent.com/bym0/stackit-portal-efficiency/refs/heads/main/src/main.user.js)__ to install the script (tampermonkey or greasemonkey has to be installed)
 
-Include the following in your tampermonkey as a userscript.
+or
+
+Include the following in your tampermonkey as a userscript
+
 ```javascript
 // ==UserScript==
 // @name         STACKIT Portal Efficiency
@@ -17,6 +21,6 @@ Include the following in your tampermonkey as a userscript.
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=stackit.cloud
 // @grant        GM_getValue
 // @grant        GM_setValue
-// @require      https://raw.githubusercontent.com/bym0/stackit-portal-efficiency/refs/heads/main/src/main.js
+// @require      https://raw.githubusercontent.com/bym0/stackit-portal-efficiency/refs/heads/main/src/main.user.js
 // ==/UserScript==
 ```
