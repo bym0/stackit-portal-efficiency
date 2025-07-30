@@ -7,10 +7,7 @@ Please don't judge the code, it's partly Gemini and partly i have no clue.
 
 | name | description | screenshot |
 | --- | --- | --- |
-| favorites | easy way of sorting your most used resources. Just star your objects and they appear at the top. Careful, those are saved as a json in your TM/GM Userscript store. | <img src="docs/images/favorites.png" width="200">
- |
-
-
+| favorites | easy way of sorting your most used resources. Just star your objects and they appear at the top. Careful, those are saved as a json in your TM/GM Userscript store. | <img src="docs/images/favorites.png" width="200"> |
 
 ## install - the easy way
 
