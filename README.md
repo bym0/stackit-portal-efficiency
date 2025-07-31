@@ -31,3 +31,7 @@ not recommended: Include the following in your tampermonkey as a userscript
 // @require      https://raw.githubusercontent.com/bym0/stackit-portal-efficiency/refs/heads/main/src/main.js
 // ==/UserScript==
 ```
+
+## todos
+
+- [ ] Sortable List for Favorites
