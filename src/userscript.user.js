@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         STACKIT Portal Efficiency
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  Adds efficient functions to the STACKIT Portal
 // @author       Timo Bergen
 // @match        https://portal.stackit.cloud/*
