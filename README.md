@@ -32,6 +32,9 @@ not recommended: Include the following in your tampermonkey as a userscript
 // ==/UserScript==
 ```
 
+## troubleshooting
+if the script isnt running or somehow it doesnt work, look at [this](https://www.tampermonkey.net/faq.php#Q209)
+
 ## todos
 
 - [ ] Sortable List for Favorites
