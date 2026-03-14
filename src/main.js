@@ -106,18 +106,19 @@
         navContainer.querySelectorAll('.nav-section:not(#favorites-nav-section) .nav-item').forEach(item => {
             const link = item.querySelector('a');
             const icon = item.querySelector('stackit-icon svg');
-            if (!link || !link.id || item.querySelector('.favorite-star-btn')) return;
+            const linkId = item.dataset.testId || link?.getAttribute('href')?.split('?')[0]?.replace(/^\//, '');
+            if (!link || !linkId || item.querySelector('.favorite-star-btn')) return;
 
             const urlPattern = link.getAttribute('href').replace(/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/i, '{{PROJECT_ID}}');
             const linkData = {
-                id: link.id,
-                name: link.title,
+                id: linkId,
+                name: link.getAttribute('aria-label')?.trim() || link.title || linkId,
                 urlPattern: urlPattern,
                 iconSVG: icon ? icon.outerHTML : ''
             };
             const starBtn = document.createElement('span');
             starBtn.className = 'favorite-star-btn';
-            starBtn.dataset.linkId = linkData.id;
+            starBtn.dataset.linkId = linkId;
             starBtn.dataset.linkData = JSON.stringify(linkData);
             starBtn.addEventListener('click', handleFavoriteToggle);
             item.appendChild(starBtn);
